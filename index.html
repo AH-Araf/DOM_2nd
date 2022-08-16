@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1>Welcome to DOM Events</h1>
+    <button onclick="console.log(7)">Click Me</button>
+    <button onclick="console.log('go')">Another Click</button>
+    <!-- Option-1(OnClick) -->
+    <button onclick="document.body.style.backgroundColor='yellow'">Make Yellow</button><br>
+    <button onclick="document.body.style.backgroundColor='white',document.body.style.color='black'">Normal Mode</button><br>
+
+    <!-- Option-2(Call Function HTML) -->
+    <!-- <button onclick="makeRed()">Make Red</button> -->
+
+    <!-- Option-3(GetElementByID) -->
+    <button id="make-blue">Dark Mode</button>
+
+
+    <!-- Option-3(another) -->
+    <button id="make-purple">Make Purple</button>
+
+
+    <!-- Option-4 -->
+    <button id="make-pink">Make Pink</button>
+
+
+    <!-- Option-4(Final) -->
+    <button id="make-orange">Make Orange</button>
+
+
+
+    <!-- JS -->
+    <script src="js/events.js"></script>
+</body>
+</html>
